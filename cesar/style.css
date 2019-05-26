@@ -3,6 +3,58 @@
     margin: 0;
     padding: 0;
 }
-main{
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+ul{
+    list-style: none;
+}
+.desktop{
+    display: none;
+}
+header{
+    background-color: brown;
+    height: 60px;
     width: 100%;
+}
+header .container{
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+header h1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+}
+h1 .ion-logo-dropbox{
+    color: dodgerblue;
+    height: 40px;
+    width: 30px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.icon-menu{
+    position: absolute;
+    right: 0;
+}
+.icon-menu a,.icon-menu button{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.icon-menu button{
+    height: 60px;
+    width: 60px;
+    color: #FFF;
+    border: 0;
+    font-size: 30px;
+    background: transparent;
 }
