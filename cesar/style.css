@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
 }
 a{
     text-decoration: none;
@@ -30,10 +35,11 @@ header h1{
     left: 0;
     top: 0;
     font-size: 40px;
+    font-weight: 500;
 }
 h1 .ion-logo-dropbox{
     color: dodgerblue;
-    height: 40px;
+    height: 46px;
     width: 30px;
     position: absolute;
     margin: auto;
@@ -57,4 +63,55 @@ h1 .ion-logo-dropbox{
     border: 0;
     font-size: 30px;
     background: transparent;
+}
+
+@media (min-width: 1024px){
+    header{
+        width: 70%;
+        max-width: 748px;
+    }
+    .movil{
+        display: none;
+    }
+    .desktop{
+        display: inline-block;
+    }
+    header h1 {
+        width: 180px;
+    }
+    h1 .ion-logo-dropbox {
+        margin: auto auto auto 15px;
+    }
+    #title-dropbox .desktop{
+        position: absolute;
+        /*right: 0;*/
+        left: 45px;
+        font-size: 28px;
+        width: fit-content;
+        height: 34px;
+        top: 0;
+        bottom: 0;
+        margin: auto auto auto 5px;
+    }
+    h1 .ion-logo-dropbox, h1 .desktop{
+        vertical-align: middle;
+        /*position: relative;*/
+    }
+    h1 .ion-logo-dropbox{
+        /*position: absolute;*/
+    }
+    #title-dropbox, .menu-principal{
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+    }
+    .menu-principal li{
+        float: left;
+        padding: auto 20px;
+        font-size: 14px;
+    }
+    .menu-principal li a{
+        display: block;
+        padding: 0 20px;
+    }
 }
