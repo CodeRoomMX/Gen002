@@ -64,8 +64,35 @@ h1 .ion-logo-dropbox{
     font-size: 30px;
     background: transparent;
 }
+#btnmenu{
+    display: none;
+}
+.menu-principal{
+    display: block;
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 300px;
+    height: 0;
+    transition: all 500ms;
+}
+#btnmenu:checked ~ .menu-principal{
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 300px;
+    background-color: brown;
+    display: block;
+    height: calc(100vh - 60px);
+    transition: all 500ms;
+}
 
 @media (min-width: 1024px){
+    body{
+        width: 100%;
+        max-width: 1044px;
+        margin: auto;
+    }
     header{
         width: 70%;
         max-width: 748px;
