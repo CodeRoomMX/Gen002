@@ -7,3 +7,7 @@ Repositorio inicial de la G2
 * Gaby Valdez
 * Kevin Franco
 * César Hernández
+* Efraín
+* Uriel
+
+
