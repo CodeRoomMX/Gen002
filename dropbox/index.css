@@ -8,3 +8,11 @@
     background: rgb(97, 8, 43);
     color: rgb(255, 255, 255);
   }
+
+  .imghigher{
+    transform: rotate(90deg);
+  }
+
+  .imglower{
+    transform: rotate(90deg);
+  }
