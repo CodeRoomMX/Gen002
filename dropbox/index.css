@@ -71,6 +71,7 @@ h1 .ion-logo-dropbox{
     color: rgb(255, 255, 255);
   }
 
+<<<<<<< HEAD
 
 
 
@@ -151,3 +152,12 @@ h1 .ion-logo-dropbox{
         padding: 0 20px;
     }
 }
+=======
+  .imghigher{
+    transform: rotate(90deg);
+  }
+
+  .imglower{
+    transform: rotate(90deg);
+  }
+>>>>>>> 68bd62e977e2aae1bddf262746e921a157619943
