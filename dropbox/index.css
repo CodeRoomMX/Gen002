@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK:100,300,400,500,700,900&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
 
   header{
   	font-family: 'Noto Sans HK', sans-serif;
@@ -19,8 +17,16 @@
 
   .imghigher{
     transform: rotate(90deg);
+    object-position: 50% 50%;
+    height: 300px;
+    width: 200px;
+    position: left;
   }
 
   .imglower{
     transform: rotate(90deg);
+    object-position: 50% 50%;
+    height: 300px;
+    width: 200px;
+    position: right;
   }
