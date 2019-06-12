@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK:100,300,400,500,700,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+<<<<<<< HEAD
+  header{
+=======
+/*********************
+* Estilos del Header *
+**********************/
+ header{
+>>>>>>> 9fb1f06534b19f3a48690c0479d77ad9d28b0be0
+  	font-family: 'Noto Sans HK', sans-serif;
+  	background-color: brown;
+    height: 60px;
+    width: 100%;
+}
+header a{
+    text-decoration: none;
+    color: #FFF;
+}
+header ul{
+    list-style: none;
+}
+header .desktop{
+    display: none;
+}
+header h1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0;
+    top: 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+h1 .ion-logo-dropbox{
+    color: dodgerblue;
+    height: 46px;
+    width: 30px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.icon-menu{
+    position: absolute;
+    right: 0;
+}
+.icon-menu a,.icon-menu button{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.icon-menu button{
+    height: 60px;
+    width: 60px;
+    color: #FFF;
+    border: 0;
+    font-size: 30px;
+    background: transparent;
+}
+#btnmenu{
+    display: none;
+}
+
+  main{
+    background: rgb(97, 8, 43);
+    color: rgb(255, 255, 255);
+  }
+
+<<<<<<< HEAD
+
+
+
+  @media (max-width: 1024px){
+    .menu-principal{
+        display: block;
+        position: fixed;
+        top: 60px;
+        right: 0;
+        width: 300px;
+        height: 0;
+        transition: all 500ms;
+    }
+    #btnmenu:checked ~ .menu-principal{
+        position: fixed;
+        top: 60px;
+        right: 0;
+        width: 300px;
+        background-color: brown;
+        display: block;
+        height: calc(100vh - 60px);
+        transition: all 500ms;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        width: 100%;
+        max-width: 1044px;
+        margin: auto;
+    }
+    header{
+        width: 70%;
+        max-width: 748px;
+    }
+    .movil{
+        display: none;
+    }
+    .desktop{
+        display: inline-block;
+    }
+    header h1 {
+        width: 180px;
+    }
+    h1 .ion-logo-dropbox {
+        margin: auto auto auto 15px;
+    }
+    #title-dropbox .desktop{
+        position: absolute;
+        /*right: 0;*/
+        left: 45px;
+        font-size: 28px;
+        width: fit-content;
+        height: 34px;
+        top: 0;
+        bottom: 0;
+        margin: auto auto auto 5px;
+    }
+    h1 .ion-logo-dropbox, h1 .desktop{
+        vertical-align: middle;
+        /*position: relative;*/
+    }
+    h1 .ion-logo-dropbox{
+        /*position: absolute;*/
+    }
+    #title-dropbox, .menu-principal{
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+    }
+    .menu-principal li{
+        float: left;
+        padding: auto 20px;
+        font-size: 14px;
+    }
+    .menu-principal li a{
+        display: block;
+        padding: 0 20px;
+    }
+}
+=======
+  .imghigher{
+    transform: rotate(90deg);
+    object-position: 50% 50%;
+    height: 300px;
+    width: 200px;
+    position: left;
+  }
+
+  .imglower{
+    transform: rotate(90deg);
+<<<<<<< HEAD
+    object-position: 50% 50%;
+    height: 300px;
+    width: 200px;
+    position: right;
+  }
+=======
+  }
+>>>>>>> 68bd62e977e2aae1bddf262746e921a157619943
+>>>>>>> 9fb1f06534b19f3a48690c0479d77ad9d28b0be0
