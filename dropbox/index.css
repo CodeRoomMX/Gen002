@@ -6,29 +6,31 @@
     box-sizing: border-box;
   }
 
-<<<<<<< HEAD
-  header{
-=======
 /*********************
 * Estilos del Header *
 **********************/
- header{
->>>>>>> 9fb1f06534b19f3a48690c0479d77ad9d28b0be0
+ 
+header{
+/*9fb1f06534b19f3a48690c0479d77ad9d28b0be0*/
   	font-family: 'Noto Sans HK', sans-serif;
   	background-color: brown;
     height: 60px;
     width: 100%;
 }
+
 header a{
     text-decoration: none;
     color: #FFF;
 }
+
 header ul{
     list-style: none;
 }
+
 header .desktop{
     display: none;
 }
+
 header h1{
     position: absolute;
     width: 60px;
@@ -38,6 +40,7 @@ header h1{
     font-size: 40px;
     font-weight: 500;
 }
+
 h1 .ion-logo-dropbox{
     color: dodgerblue;
     height: 46px;
@@ -49,14 +52,17 @@ h1 .ion-logo-dropbox{
     left: 0;
     right: 0;
 }
+
 .icon-menu{
     position: absolute;
     right: 0;
 }
+
 .icon-menu a,.icon-menu button{
     vertical-align: middle;
     cursor: pointer;
 }
+
 .icon-menu button{
     height: 60px;
     width: 60px;
@@ -65,18 +71,17 @@ h1 .ion-logo-dropbox{
     font-size: 30px;
     background: transparent;
 }
+
 #btnmenu{
     display: none;
 }
 
-  main{
+body{
     background: rgb(97, 8, 43);
     color: rgb(255, 255, 255);
-  }
+}
 
-<<<<<<< HEAD
-
-
+/*Responsive Web*/
 
   @media (max-width: 1024px){
     .menu-principal{
@@ -155,7 +160,7 @@ h1 .ion-logo-dropbox{
         padding: 0 20px;
     }
 }
-=======
+
   .imghigher{
     transform: rotate(90deg);
     object-position: 50% 50%;
@@ -166,13 +171,12 @@ h1 .ion-logo-dropbox{
 
   .imglower{
     transform: rotate(90deg);
-<<<<<<< HEAD
+/*<<<<<<<<<<< HEAD>>>>>>>>>>*/
     object-position: 50% 50%;
     height: 300px;
     width: 200px;
     position: right;
   }
-=======
-  }
->>>>>>> 68bd62e977e2aae1bddf262746e921a157619943
->>>>>>> 9fb1f06534b19f3a48690c0479d77ad9d28b0be0
+
+/*>>>>>>> 68bd62e977e2aae1bddf262746e921a157619943
+>>>>>>> 9fb1f06534b19f3a48690c0479d77ad9d28b0be0*/
